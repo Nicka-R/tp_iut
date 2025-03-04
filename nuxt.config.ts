@@ -9,4 +9,7 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/shrek.jpg' }],
     },
   },
+
+  /*import du css */
+  css: ['./assets/css/global.css'],
 })
