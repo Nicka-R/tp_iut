@@ -7,6 +7,7 @@ import { NuxtPage } from '#components';
   <header>    
     <NuxtLink href="/bonjour">Bonjour</NuxtLink>
     <NuxtLink href="/chat">Chat</NuxtLink>
+    <NuxtLink href="/posts/1">Articles</NuxtLink>  
   </header>
   <div>
     <NuxtRouteAnnouncer />
@@ -27,11 +28,26 @@ import { NuxtPage } from '#components';
     justify-content: center;
     gap: 20px;
   }
+
+  .navigation{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
   main{
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
-    height: 100vh;
   }
 
   img{
