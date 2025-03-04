@@ -1,5 +1,5 @@
 <template>
-    <html>
+<html>
   <head>
     <title>Page chat</title>
   </head>
