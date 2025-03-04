@@ -1,9 +1,5 @@
 <template>
-<html>
-  <head>
-    <title>Page chat</title>
-  </head>
-  <body>
+<div>
     <main>
       <h1>Petit chat</h1>
       <div class="page-content">
@@ -16,7 +12,5 @@
       <p>TP IUT</p>
       <p>Nicka Ratovobodo</p>
     </footer>
-  </body>
-</html>
-    
+</div>
 </template>

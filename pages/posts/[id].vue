@@ -3,7 +3,6 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const id = route.params.id
-console.log(id)
 
 const getTitle = (id: string) => {
   switch (id) {
@@ -22,11 +21,6 @@ const getTitle = (id: string) => {
 </script>
 
 <template>
-<html>
-    <head>
-        <title>{{ getTitle(id) }}</title>
-    </head>
-  <body>
     <div class="navigation">
         <NuxtLink to="/posts/1">Article 1</NuxtLink>
         <NuxtLink to="/posts/2">Article 2</NuxtLink>
@@ -43,6 +37,5 @@ const getTitle = (id: string) => {
       <p>TP IUT</p>
       <p>Nicka Ratovobodo</p>
     </footer>
-  </body>
-</html>
+
 </template>
